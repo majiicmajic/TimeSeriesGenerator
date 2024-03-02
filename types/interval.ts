@@ -1,0 +1,1 @@
+type intervalType = "day" | "week" | "month"
