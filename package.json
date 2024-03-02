@@ -8,8 +8,19 @@
     "dev": "tsc && node timeseries-generator"
   },
   "keywords": [
-    "timeseries"
+    "time",
+    "time-series",
+    "analytics",
+    "series",
+    "time",
+    "window",
+    "seasonality",
+    "trend",
+    "noise",
+    "data",
+    "generate"
   ],
+  "homepage": "https://github.com/majiicmajic/TimeSeriesGenerator",
   "author": "Akpan Joseph",
   "license": "ISC",
   "dependencies": {
