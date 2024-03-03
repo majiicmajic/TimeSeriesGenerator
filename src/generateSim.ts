@@ -1,3 +1,5 @@
+import { dataI } from "./interfaces/dataI";
+
 const fs = require('fs');
 
 export class TimeSeriesGenerator {
@@ -35,9 +37,10 @@ export class TimeSeriesGenerator {
         return data;
     }
 
-    addNoise(data: any[]) {
-        return data.map((point: { time: any; value: number; }) => {
-            return { time: point.time, value: point.value + (Math.random() * 2 - 1) * this.noiseLevel };
+    addNoise(data: dataI[]) {
+        return data.map((point: dataI) => {
+            const res:dataI =  { time: point.time, value: point.value + (Math.random() * 2 - 1) * this.noiseLevel }
+            return res;
         });
     }
 

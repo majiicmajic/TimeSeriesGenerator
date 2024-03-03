@@ -30,7 +30,8 @@ class TimeSeriesGenerator {
     }
     addNoise(data) {
         return data.map((point) => {
-            return { time: point.time, value: point.value + (Math.random() * 2 - 1) * this.noiseLevel };
+            const res = { time: point.time, value: point.value + (Math.random() * 2 - 1) * this.noiseLevel };
+            return res;
         });
     }
     generate() {
