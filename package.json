@@ -1,6 +1,6 @@
 {
   "name": "majic-ts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "a sample timeseries dataset generator for testing models",
   "main": "index.js",
   "scripts": {
