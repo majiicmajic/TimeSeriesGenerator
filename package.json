@@ -21,7 +21,12 @@
     "generate"
   ],
   "homepage": "https://github.com/majiicmajic/TimeSeriesGenerator",
-  "author": "Akpan Joseph",
+  "author": 
+    {
+      "name": "Akpan Joseph",
+      "email": "majicdevz@gmail.com"
+    }   
+  ,
   "license": "ISC",
   "dependencies": {
     "csv-writer": "^1.6.0"

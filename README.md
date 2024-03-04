@@ -14,8 +14,8 @@ Simulating time series data for educational purposes or data visualization demon
 
 Table of content
 
-1. [How to use](#1-Installation)
-2. [Installation](#2-usage)
+1. [Installation](#1-Installation)
+2. [usage](#2-usage)
 3. [Parameters](#3-Parameters)
 4. [License](#4-license)
 5. [Feedback and Contribution](#5-feedback-and-contribution)
@@ -67,7 +67,7 @@ generator.writeToCSV('time_series_data.csv');
 
 ## 4. License
 
-ISC
+MIT
 
 ---
 
