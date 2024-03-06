@@ -1,2 +1,2 @@
-import {GenerateTimeSeries} from "./src/generateSim";
+const { GenerateTimeSeries } = require("./src/generateSim");
 export default GenerateTimeSeries;
