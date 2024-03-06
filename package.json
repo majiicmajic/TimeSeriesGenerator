@@ -1,8 +1,8 @@
 {
   "name": "majic-ts",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "a sample timeseries dataset generator for testing models",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "tsc && jest",
     "dev": "tsc && node timeseries-generator"
