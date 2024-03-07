@@ -43,7 +43,7 @@ $ npm i majic-ts
 
 ```js
 
-const { TimeSeriesGenerator } = require('majic-ts');
+const { TimeSeriesGenerator } = require('majic-ts/src/generateSim');
 
 // Example usage
 const generator = new TimeSeriesGenerator(0, 10, 0.1, 2, 0.5, 0.5);
